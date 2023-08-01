@@ -114,7 +114,7 @@ echo -e "SSL ONLY   : 447 , 777" | tee -a /etc/log-create-user.log
 echo -e "SLOWDNS    : 53,5300,443" 
 echo -e "UDPGW      : 7200 7100 suport vc" | tee -a /etc/log-create-user.log
 echo -e "${kuning}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}" | tee -a /etc/log-create-user.log
-echo -e "Payload Websocket ( port 80 )" | tee -a /etc/log-create-user.log
+echo -e "Payload Websocket ( port 80 )"
 echo -e "
 GET / HTTP/1.1[crlf]Host:
 $domain[crlf]Upgrade: ws[crlf][crlf]
